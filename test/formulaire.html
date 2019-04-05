@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Ma 1ère page</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Accueil</a></li>
+                <li><a href="./formulaire.html">Formulaire</a></li>
+                <li><a href="./notation.html">Notations</a></li>
+                <li>Page 3</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+    <p>Vous pouvez vous enregistrer :</p>
+    <form action="./validation.html">
+        <label for="firstname">Votre prénom :</label>
+        <input type="text" name="firstname" value="admin" disabled>
+
+        <label for="lastname">Votre nom :</label>
+        <input type="text" name="lastname" value="Tarte">
+
+        <label for="mdp">Mot de passe :</label>
+        <input type="password">        
+        
+        <label for="age">Votre age :</label>
+        <input type="number" min="0" max="200" name="age"  oninput="validity.valid||(value='');">
+
+        <input type="submit" value="OK">
+    </form>
+    </main>
+</body>
+</html>

@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    
+
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+.cheech {
+     
+   color: rgb(0, 255, 200); 
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+   
+   
+}
+#unik {
+    
+    color: yellow;
+
+}
+
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    color: rgb(0, 255, 200);
+
+}
+nav {
+    margin: 25px ;
+    display:flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: rgb(0, 255, 200);
+    text-decoration: none;
+    border: solid 3px  yellow;
+    border-radius: 8px 8px 8px 8px;
+    padding: 5px;
+   
+
+}
+
+body {
+    background-color: black; 
+}
